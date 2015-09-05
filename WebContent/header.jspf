@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=gb2312"
+	pageEncoding="gb2312"%>
+<%
+	request.setCharacterEncoding("gb2312");
+%>
+<%@page import="java.sql.*"%>
+<%@page import="connDB.*"%>
+<%@page import="model.*"%>
+
+<%
+	User user = (User) session.getAttribute("user");
+%>
+
+
